@@ -12,7 +12,7 @@
 # Solution:
 - SELECT DISTINCT CITY
 - FROM STATION 
-- WHERE CITY REGEXP '[aeiouAEIOU]$'
+- WHERE CITY REGEXP '[a,e,i,o,u]$'
 
 - In the context of the query, REGEXP is used to match the CITY names that start with vowels. The regular expression '^[aeiouAEIOU]' specifies the pattern we are looking for:
   - '$' asserts the end of the string.
